@@ -72,7 +72,7 @@ export default function Tamplate() {
  
   return (
     <div className="min-w-full  min-h-screen flex  bg-gradient-to-bl from-darkBlue from-30% via-grayPrimary via-50% to-darkBlue to-70% font-mono ">
-      <aside className="w-96 pt-40 text-5xl m-20 text-withPrimary font-mono font-extrabold">
+      <aside className="w-96 h-full pt-40 text-5xl m-20 text-withPrimary font-mono font-extrabold">
         <div className="w-full flex flex-col items-center ">
           <img
             className="rounded-full w-32 border-4 border-solid border-blueEfect mb-10 p-2 "
