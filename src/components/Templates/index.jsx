@@ -127,7 +127,7 @@ export default function Tamplate() {
             : 
             <button
               onClick={() => setOpen(!open)}
-              className="z-50 w-40 h-20 rounded-full bg-pinkEfect flex items-center justify-center duration-300  hover:-translate-y-1 fixed bottom-[43.7rem] right-32 border-4 border-withPrimary " >
+              className="z-50 w-40 h-20 rounded-full bg-withSecond flex items-center justify-center duration-300  hover:-translate-y-1 fixed bottom-[43.7rem] right-32 border-4 border-withPrimary " >
               <FiPlus className="w-8 h-8 text-withPrimary duration-300 hover:rotate-180" />
             </button>
         }
