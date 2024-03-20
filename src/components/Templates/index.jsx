@@ -71,15 +71,15 @@ export default function Tamplate() {
   const [filterCategory, setFilterCategory] = useState("All")
  
   return (
-    <div className="min-w-full  min-h-screen flex p-20 bg-gradient-to-bl from-darkBlue from-30% via-grayPrimary via-50% to-darkBlue to-70% font-mono ">
-      <aside className="w-96 pt-20 text-5xl text-withPrimary font-mono font-extrabold">
-        <div className="">
+    <div className="min-w-full  min-h-screen flex  bg-gradient-to-bl from-darkBlue from-30% via-grayPrimary via-50% to-darkBlue to-70% font-mono ">
+      <aside className="w-96 pt-40 text-5xl m-20 text-withPrimary font-mono font-extrabold">
+        <div className="w-full flex flex-col items-center ">
           <img
             className="rounded-full w-32 border-4 border-solid border-blueEfect mb-10 p-2 "
             src={Profile}
             alt="Profile"
           />
-          <p className="pb-4">Askelad</p>
+          <p>Askelad</p>
           <p>Montier</p>
         </div>
         <hr className="w-64 mt-10" />
@@ -87,7 +87,7 @@ export default function Tamplate() {
         <Filtered filter={filter} setFilter={setFilter}/>
         <FilteredCategory filterCategory={filterCategory} setFilterCategory={setFilterCategory}/>
       </aside>
-      <main className="w-full rounded-large py-12 px-10 bg-ligthBlue border-2 border-withSecond border-opacity-30 static">
+      <main className="w-full rounded-large mt-20 mr-20 py-12 px-10 bg-ligthBlue border-2 border-withSecond border-opacity-30 static">
         <Search search={search}  setSearch={setSearch}/>
         <p className="text-5xl text-withPrimary text font-mono font-extrabold pt-6 duration-300 hover:-translate-y-1 ">
           Olá Askelad!!
@@ -127,7 +127,7 @@ export default function Tamplate() {
             : 
             <button
               onClick={() => setOpen(!open)}
-              className="z-50 w-20 h-20 rounded-full bg-pinkEfect flex items-center justify-center duration-300  hover:-translate-y-1 fixed bottom-[28.5rem] right-32 border-4 border-withPrimary " >
+              className="z-50 w-40 h-20 rounded-full bg-pinkEfect flex items-center justify-center duration-300  hover:-translate-y-1 fixed bottom-[43.7rem] right-32 border-4 border-withPrimary " >
               <FiPlus className="w-8 h-8 text-withPrimary duration-300 hover:rotate-180" />
             </button>
         }
